@@ -1,0 +1,133 @@
+#container {
+  width: 365px;
+  /*height: 20px;*/
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #464950;
+  /*margin-top: 20px;
+  padding: 5px;*/
+  color: #fff2e0;
+  /*font-size: 12px;*/
+  border-radius: 25px;
+  font-family: "Lato", sans-serif;
+}
+
+#color1 {
+  background-color: #ff5e57;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  float: left;
+  margin: 12px 8px;
+}
+
+#color2 {
+  background-color: #fdbe2e;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  float: left;
+  margin: 12px 8px;
+}
+
+#color3 {
+  background-color: #29c940;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  float: left;
+  margin: 12px 8px;
+}
+
+#wyswietlacz {
+  width: 360;
+  height: 50px;
+  font-size: 48px;
+  text-align: right;
+}
+
+#color:first-child {
+  margin-left: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 90px);
+  /*grid-auto-rows: 60px;*/
+  grid-template-rows: repeat(5, 65px);
+  grid-gap: 2px;
+  font-size: 28px;
+}
+
+.grid {
+  background-color: #74767a;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid span {
+  display: block;
+  padding: 12px 0 0 0;
+  margin: 0;
+  /*background-color: #ff5e57;*/
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.grid:hover {
+  background-color: #85878b;
+  border: solid #dedede 1px;
+}
+
+.grid-2 {
+  background-color: #fea00a;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.grid-2:hover {
+  background-color: #ed9000;
+}
+
+.grid-3 {
+  background-color: #595b60;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+
+.grid-3 span {
+  display: block;
+  padding: 12px 0 0 0;
+  margin: 0;
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.grid-3:hover {
+  background-color: #696c71;
+}
+
+.grid-4 {
+  background-color: #595b60;
+  margin: 0;
+  padding: 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.grid-item-17 {
+  grid-area: 5 / 1 / span 1 / span 2;
+}
